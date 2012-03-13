@@ -38,21 +38,21 @@
 		AF4DDAB9150FF46300CB0CDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AF4DDABB150FF46300CB0CDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AF4DDABD150FF46300CB0CDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AF4DDAC1150FF46300CB0CDB /* Five a day-Info.plist */ = {isa = PBXFileReference; path = "Five a day-Info.plist"; sourceTree = "<group>"; };
+		AF4DDAC1150FF46300CB0CDB /* Five a day-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Five a day-Info.plist"; sourceTree = "<group>"; };
 		AF4DDAC3150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF4DDAC5150FF46300CB0CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AF4DDAC7150FF46300CB0CDB /* Five a day-Prefix.pch */ = {isa = PBXFileReference; path = "Five a day-Prefix.pch"; sourceTree = "<group>"; };
-		AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4DDAC7150FF46300CB0CDB /* Five a day-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Five a day-Prefix.pch"; sourceTree = "<group>"; };
+		AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF4DDACC150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AF4DDACF150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		AF4DDAD1150FF46300CB0CDB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AF4DDAD1150FF46300CB0CDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AF4DDAD2150FF46300CB0CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF4DDAD9150FF46300CB0CDB /* Five a dayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five a dayTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		AF4DDAE2150FF46300CB0CDB /* Five a dayTests-Info.plist */ = {isa = PBXFileReference; path = "Five a dayTests-Info.plist"; sourceTree = "<group>"; };
+		AF4DDAE2150FF46300CB0CDB /* Five a dayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Five a dayTests-Info.plist"; sourceTree = "<group>"; };
 		AF4DDAE4150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AF4DDAE6150FF46300CB0CDB /* Five_a_dayTests.h */ = {isa = PBXFileReference; path = Five_a_dayTests.h; sourceTree = "<group>"; };
+		AF4DDAE6150FF46300CB0CDB /* Five_a_dayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Five_a_dayTests.h; sourceTree = "<group>"; };
 		AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Five_a_dayTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AF4DDAEB150FF46300CB0CDB /* Build configuration list for PBXNativeTarget "Five a day" */;
 			buildPhases = (
+				AF4DDAF1150FF49A00CB0CDB /* ShellScript */,
 				AF4DDAB1150FF46300CB0CDB /* Sources */,
 				AF4DDAB2150FF46300CB0CDB /* Frameworks */,
 				AF4DDAB3150FF46300CB0CDB /* Resources */,
@@ -253,6 +254,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		AF4DDAF1150FF49A00CB0CDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "git=`sh /etc/profile; which git`\nversion=`$git describe --tags --always`\ncount=`$git rev-list --all |wc -l`\necho -e \"#define GIT_VERSION $version\\n#define GIT_COMMIT_COUNT $count\" > InfoPlist.h";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -374,6 +388,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
 				INFOPLIST_FILE = "Five a day/Five a day-Info.plist";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -385,6 +401,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
 				INFOPLIST_FILE = "Five a day/Five a day-Info.plist";
+				INFOPLIST_PREFIX_HEADER = InfoPlist.h;
+				INFOPLIST_PREPROCESS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

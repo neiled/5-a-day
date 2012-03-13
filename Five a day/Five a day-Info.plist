@@ -45,5 +45,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+  <key>CFBundleShortVersionString</key>
+  <string>GIT_VERSION</string>
+  <key>CFBundleVersion</key>
+  <string>GIT_COMMIT_COUNT</string>
 </dict>
 </plist>
