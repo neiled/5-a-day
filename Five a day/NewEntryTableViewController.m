@@ -27,11 +27,6 @@
 {
     [super viewDidLoad];
 
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
- 
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     NSString* myString = [NSDateFormatter localizedStringFromDate:[[NSDate alloc] init]  dateStyle:NSDateFormatterMediumStyle timeStyle:NSDateFormatterNoStyle];
     
     self.title = myString;
@@ -46,7 +41,7 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+	return NO;
 }
 
 #pragma mark - Table view data source
