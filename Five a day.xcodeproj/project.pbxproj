@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF4DDABA150FF46300CB0CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDAB9150FF46300CB0CDB /* UIKit.framework */; };
+		AF4DDABC150FF46300CB0CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDABB150FF46300CB0CDB /* Foundation.framework */; };
+		AF4DDABE150FF46300CB0CDB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDABD150FF46300CB0CDB /* CoreGraphics.framework */; };
+		AF4DDAC4150FF46300CB0CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDAC2150FF46300CB0CDB /* InfoPlist.strings */; };
+		AF4DDAC6150FF46300CB0CDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAC5150FF46300CB0CDB /* main.m */; };
+		AF4DDACA150FF46300CB0CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */; };
+		AF4DDACD150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDACB150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard */; };
+		AF4DDAD0150FF46300CB0CDB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDACE150FF46300CB0CDB /* MainStoryboard_iPad.storyboard */; };
+		AF4DDAD3150FF46300CB0CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAD2150FF46300CB0CDB /* ViewController.m */; };
+		AF4DDADB150FF46300CB0CDB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */; };
+		AF4DDADC150FF46300CB0CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDAB9150FF46300CB0CDB /* UIKit.framework */; };
+		AF4DDADD150FF46300CB0CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDABB150FF46300CB0CDB /* Foundation.framework */; };
+		AF4DDAE5150FF46300CB0CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDAE3150FF46300CB0CDB /* InfoPlist.strings */; };
+		AF4DDAE8150FF46300CB0CDB /* Five_a_dayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF4DDADE150FF46300CB0CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF4DDAAC150FF46300CB0CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4DDAB4150FF46300CB0CDB;
+			remoteInfo = "Five a day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF4DDAB5150FF46300CB0CDB /* Five a day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Five a day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DDAB9150FF46300CB0CDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF4DDABB150FF46300CB0CDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF4DDABD150FF46300CB0CDB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF4DDAC1150FF46300CB0CDB /* Five a day-Info.plist */ = {isa = PBXFileReference; path = "Five a day-Info.plist"; sourceTree = "<group>"; };
+		AF4DDAC3150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF4DDAC5150FF46300CB0CDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF4DDAC7150FF46300CB0CDB /* Five a day-Prefix.pch */ = {isa = PBXFileReference; path = "Five a day-Prefix.pch"; sourceTree = "<group>"; };
+		AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF4DDACC150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AF4DDACF150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AF4DDAD1150FF46300CB0CDB /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		AF4DDAD2150FF46300CB0CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AF4DDAD9150FF46300CB0CDB /* Five a dayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five a dayTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AF4DDAE2150FF46300CB0CDB /* Five a dayTests-Info.plist */ = {isa = PBXFileReference; path = "Five a dayTests-Info.plist"; sourceTree = "<group>"; };
+		AF4DDAE4150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF4DDAE6150FF46300CB0CDB /* Five_a_dayTests.h */ = {isa = PBXFileReference; path = Five_a_dayTests.h; sourceTree = "<group>"; };
+		AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Five_a_dayTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF4DDAB2150FF46300CB0CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDABA150FF46300CB0CDB /* UIKit.framework in Frameworks */,
+				AF4DDABC150FF46300CB0CDB /* Foundation.framework in Frameworks */,
+				AF4DDABE150FF46300CB0CDB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DDAD5150FF46300CB0CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDADB150FF46300CB0CDB /* SenTestingKit.framework in Frameworks */,
+				AF4DDADC150FF46300CB0CDB /* UIKit.framework in Frameworks */,
+				AF4DDADD150FF46300CB0CDB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF4DDAAA150FF46300CB0CDB = {
+			isa = PBXGroup;
+			children = (
+				AF4DDABF150FF46300CB0CDB /* Five a day */,
+				AF4DDAE0150FF46300CB0CDB /* Five a dayTests */,
+				AF4DDAB8150FF46300CB0CDB /* Frameworks */,
+				AF4DDAB6150FF46300CB0CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF4DDAB6150FF46300CB0CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAB5150FF46300CB0CDB /* Five a day.app */,
+				AF4DDAD9150FF46300CB0CDB /* Five a dayTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF4DDAB8150FF46300CB0CDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAB9150FF46300CB0CDB /* UIKit.framework */,
+				AF4DDABB150FF46300CB0CDB /* Foundation.framework */,
+				AF4DDABD150FF46300CB0CDB /* CoreGraphics.framework */,
+				AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF4DDABF150FF46300CB0CDB /* Five a day */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */,
+				AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */,
+				AF4DDACB150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard */,
+				AF4DDACE150FF46300CB0CDB /* MainStoryboard_iPad.storyboard */,
+				AF4DDAD1150FF46300CB0CDB /* ViewController.h */,
+				AF4DDAD2150FF46300CB0CDB /* ViewController.m */,
+				AF4DDAC0150FF46300CB0CDB /* Supporting Files */,
+			);
+			path = "Five a day";
+			sourceTree = "<group>";
+		};
+		AF4DDAC0150FF46300CB0CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAC1150FF46300CB0CDB /* Five a day-Info.plist */,
+				AF4DDAC2150FF46300CB0CDB /* InfoPlist.strings */,
+				AF4DDAC5150FF46300CB0CDB /* main.m */,
+				AF4DDAC7150FF46300CB0CDB /* Five a day-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4DDAE0150FF46300CB0CDB /* Five a dayTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAE6150FF46300CB0CDB /* Five_a_dayTests.h */,
+				AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */,
+				AF4DDAE1150FF46300CB0CDB /* Supporting Files */,
+			);
+			path = "Five a dayTests";
+			sourceTree = "<group>";
+		};
+		AF4DDAE1150FF46300CB0CDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAE2150FF46300CB0CDB /* Five a dayTests-Info.plist */,
+				AF4DDAE3150FF46300CB0CDB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF4DDAB4150FF46300CB0CDB /* Five a day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DDAEB150FF46300CB0CDB /* Build configuration list for PBXNativeTarget "Five a day" */;
+			buildPhases = (
+				AF4DDAB1150FF46300CB0CDB /* Sources */,
+				AF4DDAB2150FF46300CB0CDB /* Frameworks */,
+				AF4DDAB3150FF46300CB0CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Five a day";
+			productName = "Five a day";
+			productReference = AF4DDAB5150FF46300CB0CDB /* Five a day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF4DDAD8150FF46300CB0CDB /* Five a dayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF4DDAEE150FF46300CB0CDB /* Build configuration list for PBXNativeTarget "Five a dayTests" */;
+			buildPhases = (
+				AF4DDAD4150FF46300CB0CDB /* Sources */,
+				AF4DDAD5150FF46300CB0CDB /* Frameworks */,
+				AF4DDAD6150FF46300CB0CDB /* Resources */,
+				AF4DDAD7150FF46300CB0CDB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF4DDADF150FF46300CB0CDB /* PBXTargetDependency */,
+			);
+			name = "Five a dayTests";
+			productName = "Five a dayTests";
+			productReference = AF4DDAD9150FF46300CB0CDB /* Five a dayTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF4DDAAC150FF46300CB0CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = AF4DDAAF150FF46300CB0CDB /* Build configuration list for PBXProject "Five a day" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF4DDAAA150FF46300CB0CDB;
+			productRefGroup = AF4DDAB6150FF46300CB0CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF4DDAB4150FF46300CB0CDB /* Five a day */,
+				AF4DDAD8150FF46300CB0CDB /* Five a dayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF4DDAB3150FF46300CB0CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDAC4150FF46300CB0CDB /* InfoPlist.strings in Resources */,
+				AF4DDACD150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard in Resources */,
+				AF4DDAD0150FF46300CB0CDB /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DDAD6150FF46300CB0CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDAE5150FF46300CB0CDB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF4DDAD7150FF46300CB0CDB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF4DDAB1150FF46300CB0CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDAC6150FF46300CB0CDB /* main.m in Sources */,
+				AF4DDACA150FF46300CB0CDB /* AppDelegate.m in Sources */,
+				AF4DDAD3150FF46300CB0CDB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4DDAD4150FF46300CB0CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4DDAE8150FF46300CB0CDB /* Five_a_dayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF4DDADF150FF46300CB0CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF4DDAB4150FF46300CB0CDB /* Five a day */;
+			targetProxy = AF4DDADE150FF46300CB0CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF4DDAC2150FF46300CB0CDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DDAC3150FF46300CB0CDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF4DDACB150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DDACC150FF46300CB0CDB /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4DDACE150FF46300CB0CDB /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DDACF150FF46300CB0CDB /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		AF4DDAE3150FF46300CB0CDB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF4DDAE4150FF46300CB0CDB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF4DDAE9150FF46300CB0CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF4DDAEA150FF46300CB0CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF4DDAEC150FF46300CB0CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
+				INFOPLIST_FILE = "Five a day/Five a day-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF4DDAED150FF46300CB0CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
+				INFOPLIST_FILE = "Five a day/Five a day-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AF4DDAEF150FF46300CB0CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Five a day.app/Five a day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
+				INFOPLIST_FILE = "Five a dayTests/Five a dayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AF4DDAF0150FF46300CB0CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Five a day.app/Five a day";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Five a day/Five a day-Prefix.pch";
+				INFOPLIST_FILE = "Five a dayTests/Five a dayTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF4DDAAF150FF46300CB0CDB /* Build configuration list for PBXProject "Five a day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DDAE9150FF46300CB0CDB /* Debug */,
+				AF4DDAEA150FF46300CB0CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF4DDAEB150FF46300CB0CDB /* Build configuration list for PBXNativeTarget "Five a day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DDAEC150FF46300CB0CDB /* Debug */,
+				AF4DDAED150FF46300CB0CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF4DDAEE150FF46300CB0CDB /* Build configuration list for PBXNativeTarget "Five a dayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF4DDAEF150FF46300CB0CDB /* Debug */,
+				AF4DDAF0150FF46300CB0CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF4DDAAC150FF46300CB0CDB /* Project object */;
+}
