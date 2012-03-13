@@ -20,6 +20,7 @@
 		AF4DDADD150FF46300CB0CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDABB150FF46300CB0CDB /* Foundation.framework */; };
 		AF4DDAE5150FF46300CB0CDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDAE3150FF46300CB0CDB /* InfoPlist.strings */; };
 		AF4DDAE8150FF46300CB0CDB /* Five_a_dayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */; };
+		AF4DDAF6150FFDC700CB0CDB /* NewEntryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAF5150FFDC700CB0CDB /* NewEntryTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AF4DDAE4150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF4DDAE6150FF46300CB0CDB /* Five_a_dayTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Five_a_dayTests.h; sourceTree = "<group>"; };
 		AF4DDAE7150FF46300CB0CDB /* Five_a_dayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Five_a_dayTests.m; sourceTree = "<group>"; };
+		AF4DDAF4150FFDC700CB0CDB /* NewEntryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEntryTableViewController.h; sourceTree = "<group>"; };
+		AF4DDAF5150FFDC700CB0CDB /* NewEntryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEntryTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +164,8 @@
 		AF4DDAF3150FF6D800CB0CDB /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				AF4DDAF4150FFDC700CB0CDB /* NewEntryTableViewController.h */,
+				AF4DDAF5150FFDC700CB0CDB /* NewEntryTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			files = (
 				AF4DDAC6150FF46300CB0CDB /* main.m in Sources */,
 				AF4DDACA150FF46300CB0CDB /* AppDelegate.m in Sources */,
+				AF4DDAF6150FFDC700CB0CDB /* NewEntryTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

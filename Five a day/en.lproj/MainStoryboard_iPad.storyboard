@@ -6,11 +6,11 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--New Entry Table View Controller-->
         <scene sceneID="NSb-sg-rdy">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bH1-1u-5jY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="ToP-cH-qo2" sceneMemberID="viewController">
+                <tableViewController id="ToP-cH-qo2" customClass="NewEntryTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="151" sectionHeaderHeight="22" sectionFooterHeight="22" id="amp-ex-NeY">
                         <rect key="frame" x="0.0" y="64" width="768" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -156,6 +156,11 @@
             <point key="canvasLocation" x="-688" y="-328"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="NewEntryTableViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NewEntryTableViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
