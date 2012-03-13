@@ -15,7 +15,6 @@
 		AF4DDACA150FF46300CB0CDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */; };
 		AF4DDACD150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDACB150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard */; };
 		AF4DDAD0150FF46300CB0CDB /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4DDACE150FF46300CB0CDB /* MainStoryboard_iPad.storyboard */; };
-		AF4DDAD3150FF46300CB0CDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4DDAD2150FF46300CB0CDB /* ViewController.m */; };
 		AF4DDADB150FF46300CB0CDB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */; };
 		AF4DDADC150FF46300CB0CDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDAB9150FF46300CB0CDB /* UIKit.framework */; };
 		AF4DDADD150FF46300CB0CDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DDABB150FF46300CB0CDB /* Foundation.framework */; };
@@ -46,8 +45,6 @@
 		AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AF4DDACC150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		AF4DDACF150FF46300CB0CDB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		AF4DDAD1150FF46300CB0CDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF4DDAD2150FF46300CB0CDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF4DDAD9150FF46300CB0CDB /* Five a dayTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Five a dayTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4DDADA150FF46300CB0CDB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		AF4DDAE2150FF46300CB0CDB /* Five a dayTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Five a dayTests-Info.plist"; sourceTree = "<group>"; };
@@ -113,12 +110,9 @@
 		AF4DDABF150FF46300CB0CDB /* Five a day */ = {
 			isa = PBXGroup;
 			children = (
-				AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */,
-				AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */,
+				AF4DDAF2150FF6CF00CB0CDB /* MVC */,
 				AF4DDACB150FF46300CB0CDB /* MainStoryboard_iPhone.storyboard */,
 				AF4DDACE150FF46300CB0CDB /* MainStoryboard_iPad.storyboard */,
-				AF4DDAD1150FF46300CB0CDB /* ViewController.h */,
-				AF4DDAD2150FF46300CB0CDB /* ViewController.m */,
 				AF4DDAC0150FF46300CB0CDB /* Supporting Files */,
 			);
 			path = "Five a day";
@@ -127,6 +121,8 @@
 		AF4DDAC0150FF46300CB0CDB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF4DDAC8150FF46300CB0CDB /* AppDelegate.h */,
+				AF4DDAC9150FF46300CB0CDB /* AppDelegate.m */,
 				AF4DDAC1150FF46300CB0CDB /* Five a day-Info.plist */,
 				AF4DDAC2150FF46300CB0CDB /* InfoPlist.strings */,
 				AF4DDAC5150FF46300CB0CDB /* main.m */,
@@ -152,6 +148,21 @@
 				AF4DDAE3150FF46300CB0CDB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF4DDAF2150FF6CF00CB0CDB /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DDAF3150FF6D800CB0CDB /* Controllers */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		AF4DDAF3150FF6D800CB0CDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +288,6 @@
 			files = (
 				AF4DDAC6150FF46300CB0CDB /* main.m in Sources */,
 				AF4DDACA150FF46300CB0CDB /* AppDelegate.m in Sources */,
-				AF4DDAD3150FF46300CB0CDB /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
